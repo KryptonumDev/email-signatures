@@ -8,12 +8,34 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
       rel="stylesheet" />
+    <style type="text/css">
+      /* Anti-underline CSS for email clients */
+      a,
+      a:link,
+      a:visited,
+      a:hover,
+      a:active {
+        text-decoration: none !important;
+        border-bottom: none !important;
+        outline: none !important;
+      }
+      .gmail_default a,
+      .apple-link a,
+      .ExternalClass a {
+        text-decoration: none !important;
+        border-bottom: none !important;
+      }
+      u + .body a {
+        text-decoration: none !important;
+      }
+    </style>
   </head>
   <body
     style="
       margin: 0;
       padding: 0;
-      font-family: 'Poppins', 'Segoe UI', Tahoma, Arial, sans-serif;
+      font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
     ">
     <table
       cellpadding="0"
@@ -86,7 +108,9 @@
                   line-height: 28px;
                   text-align: center;
                   padding-bottom: 8px;
-                  font-family: 'Poppins', 'Segoe UI', Tahoma, Arial, sans-serif;
+                  font-family: 'Poppins', -apple-system, BlinkMacSystemFont,
+                    'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+                    'Helvetica Neue', sans-serif;
                   font-feature-settings: 'liga' off, 'clig' off;
                   padding-bottom: 5px;
                 ">
@@ -96,19 +120,14 @@
             <tr>
               <td
                 style="
-                  background: linear-gradient(
-                    266deg,
-                    #2dd282 1.76%,
-                    #90f4e8 100%
-                  );
-                  background-clip: text;
-                  -webkit-background-clip: text;
-                  -webkit-text-fill-color: transparent;
+                  color: #5adb9c;
                   font-size: 165x;
                   font-weight: 300;
                   text-align: center;
                   text-transform: uppercase;
-                  font-family: 'Poppins', 'Segoe UI', Tahoma, Arial, sans-serif;
+                  font-family: 'Poppins', -apple-system, BlinkMacSystemFont,
+                    'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+                    'Helvetica Neue', sans-serif;
                   line-height: 24px;
                   font-feature-settings: 'liga' off, 'clig' off;
                 ">
@@ -132,7 +151,12 @@
               <td style="padding-bottom: 12px">
                 <a
                   href="https://kryptonum.eu/en"
-                  style="text-decoration: none; display: block">
+                  style="
+                    text-decoration: none !important;
+                    display: block;
+                    border-bottom: none !important;
+                    outline: none !important;
+                  ">
                   <table cellpadding="0" cellspacing="0" border="0">
                     <tr>
                       <td style="vertical-align: middle; padding-right: 2px">
@@ -196,7 +220,9 @@
                             font-weight: 300;
                             line-height: 1.119px;
                             letter-spacing: -0.35px;
-                            font-family: 'Poppins', 'Segoe UI', Tahoma, Arial,
+                            font-family: 'Poppins', -apple-system,
+                              BlinkMacSystemFont, 'Segoe UI', Roboto,
+                              Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue',
                               sans-serif;
                           ">
                           Kryptonum
@@ -217,14 +243,17 @@
                   style="
                     color: #f9fbfc;
                     font-size: 15px;
-                    text-decoration: none;
-                    font-family: 'Poppins', 'Segoe UI', Tahoma, Arial,
-                      sans-serif;
+                    text-decoration: none !important;
+                    font-family: 'Poppins', -apple-system, BlinkMacSystemFont,
+                      'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+                      'Helvetica Neue', sans-serif;
                     line-height: 15px;
                     padding-bottom: 8px;
                     display: block;
                     font-weight: 300;
                     font-feature-settings: 'liga' off, 'clig' off;
+                    border-bottom: none !important;
+                    outline: none !important;
                   ">
                   kuba@kryptonum.eu
                 </a>
@@ -235,21 +264,18 @@
                 <a
                   href="tel:+48883736548"
                   style="
-                    background: linear-gradient(
-                      266deg,
-                      #2dd282 1.76%,
-                      #90f4e8 100%
-                    );
-                    background-clip: text;
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
+                    color: #5adb9c;
+
                     font-size: 15px;
-                    text-decoration: none;
-                    font-family: 'Poppins', 'Segoe UI', Tahoma, Arial,
-                      sans-serif;
+                    text-decoration: none !important;
+                    font-family: 'Poppins', -apple-system, BlinkMacSystemFont,
+                      'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+                      'Helvetica Neue', sans-serif;
                     line-height: 15px;
                     font-weight: 300;
                     font-feature-settings: 'liga' off, 'clig' off;
+                    border-bottom: none !important;
+                    outline: none !important;
                   ">
                   +48 883 736 548
                 </a>
@@ -273,8 +299,9 @@
                         font-feature-settings: 'ss03' on, 'ss04' on;
                         font-variant-numeric: oldstyle-nums proportional-nums;
                         padding-bottom: 8px;
-                        font-family: 'Poppins', 'Segoe UI', Tahoma, Arial,
-                          sans-serif;
+                        font-family: 'Poppins', -apple-system,
+                          BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans,
+                          Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
                       ">
                       Kryptonum sp. z o.o.
                     </td>
@@ -291,8 +318,9 @@
                         font-feature-settings: 'ss03' on, 'ss04' on;
                         font-variant-numeric: oldstyle-nums proportional-nums;
                         padding-bottom: 4px;
-                        font-family: 'Poppins', 'Segoe UI', Tahoma, Arial,
-                          sans-serif;
+                        font-family: 'Poppins', -apple-system,
+                          BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans,
+                          Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
                       ">
                       warsaw
                     </td>
